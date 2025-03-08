@@ -50,44 +50,45 @@
 	<!-- CONTENT -->
 <div id="coontainer">
 	
-	<div class="row">
-		<div class="col-md-8"> <!-- FORMS -->
+	<div class="row formsarea">
+		<div class="col"> <!-- FORMS -->
+		<div class="col-mb-3">
 		<h2><ol><li>Forms</li></h2>
-		<label>Leaving From :</label>
-		         <select>
-		            	<option>-------</option>
-		            	<option>Santolan</option>
-		            	<option>Katipunan</option>
-		            	<option>Anonas</option>
-				<option>Araneta Center-Cubao</option>
-				<option>Betty Go-Belmonte</option>
-				<option>Gilmore</option>
-				<option>J.Ruiz</option>
-				<option>V.Mapa</option>
-				<option>Pureza</option>
-				<option>Legarda</option>
-				<option>Recto</option>
-			</select>
-		
-		<label>Going To :</label>
-	          	<select>
-		            	<option>-------</option>
-		            	<option>Santolan</option>
-		            	<option>Katipunan</option>
-		            	<option>Anonas</option>
-				<option>Araneta Center-Cubao</option>
-				<option>Betty Go-Belmonte</option>
-				<option>Gilmore</option>
-				<option>J.Ruiz</option>
-				<option>V.Mapa</option>
-				<option>Pureza</option>
-				<option>Legarda</option>
-				<option>Recto</option>
-			</select>
-		<button type="button" class="btn btn-primary" onclick="calculate()">Submit</button>
+			<label>Leaving From :</label>
+			         <select>
+			            	<option>-------</option>
+			            	<option>Santolan</option>
+			            	<option>Katipunan</option>
+			            	<option>Anonas</option>
+					<option>Araneta Center-Cubao</option>
+					<option>Betty Go-Belmonte</option>
+					<option>Gilmore</option>
+					<option>J.Ruiz</option>
+					<option>V.Mapa</option>
+					<option>Pureza</option>
+					<option>Legarda</option>
+					<option>Recto</option>
+				</select>
+			
+			<label>Going To :</label>
+		          	<select>
+			            	<option>-------</option>
+			            	<option>Santolan</option>
+			            	<option>Katipunan</option>
+			            	<option>Anonas</option>
+					<option>Araneta Center-Cubao</option>
+					<option>Betty Go-Belmonte</option>
+					<option>Gilmore</option>
+					<option>J.Ruiz</option>
+					<option>V.Mapa</option>
+					<option>Pureza</option>
+					<option>Legarda</option>
+					<option>Recto</option>
+				</select>
+			<button type="button" class="btn btn-primary" onclick="calculate()">Submit</button>
 		</div>
 		
-		<div class="col-md-4"> <!-- RESULT -->
+		<div class="col-md-4 resultarea"> <!-- RESULT -->
 			<h2>Ticket Price</h2>
 			<h4 id="Result"></h4>
 		</div>
@@ -101,11 +102,13 @@
 		<div class="col-md-6"> <!-- SCHED -->
 		 <table class="table table-dark">
 			<thead>
-					<tr>Stations</tr>
-					<tr>First Train --> Recto</tr>
-					<tr>Last Train --> Recto</tr>
-					<tr>First Train --> Santolan</tr>
-					<tr>Last Train --> Santolan</tr>
+				<tr>
+					<th>Stations</th>
+					<th>First Train --> Recto</th>
+					<th>Last Train --> Recto</th>
+					<th>First Train --> Santolan</th>
+					<th>Last Train --> Santolan</th>
+				</tr>
 			</thead>
 			<tbody>
 				<tr>
