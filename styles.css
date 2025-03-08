@@ -1,3 +1,8 @@
 nav {
   position: sticky;
 }
+
+.car-image {
+  width: 50%
+  height: 65%
+}
