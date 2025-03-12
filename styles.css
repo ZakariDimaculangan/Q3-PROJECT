@@ -13,6 +13,7 @@ body {
 /* Nav */
 .navbar {
     background-color: #C91923;
+    position: sticky;
 }
 
 .nav-link, .navbar-brand, .btn-dark {
