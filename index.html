@@ -48,7 +48,8 @@
       </div>
     </div>
   </nav>
-	 <!-- CONTENT -->
+	 <!-- 1stPAGE CONTENT -->
+<section id="home">
   <div class="container">
 	  <div class="welcome">
 		<h1>Welcome!</h1>
@@ -116,6 +117,186 @@
 	</details>
     </div>
  </div>
+</section>
+
+<!-- 2ndPAGE CONTENT -->
+<section id="forms" style="display: none">
+<div id="coontainer">
+	<div class="row formsarea">
+		<div class="col-md-8"> <!-- FORMS -->
+		<h2>I. Form</h2>
+			<label>Leaving From :</label>
+			         <select>
+			            	<option>-------</option>
+			            	<option>Santolan</option>
+			            	<option>Katipunan</option>
+			            	<option>Anonas</option>
+					<option>Araneta Center-Cubao</option>
+					<option>Betty Go-Belmonte</option>
+					<option>Gilmore</option>
+					<option>J.Ruiz</option>
+					<option>V.Mapa</option>
+					<option>Pureza</option>
+					<option>Legarda</option>
+					<option>Recto</option>
+				</select>
+			
+			<label>Going To :</label>
+		          	<select>
+			            	<option>-------</option>
+			            	<option>Santolan</option>
+			            	<option>Katipunan</option>
+			            	<option>Anonas</option>
+					<option>Araneta Center-Cubao</option>
+					<option>Betty Go-Belmonte</option>
+					<option>Gilmore</option>
+					<option>J.Ruiz</option>
+					<option>V.Mapa</option>
+					<option>Pureza</option>
+					<option>Legarda</option>
+					<option>Recto</option>
+				</select>
+			<form>
+				<p>Please select your fare type:</p>
+				<input type="radio" id="reg_fee" name="ticket_type" value="REGULAR">
+				<label for="reg_fee">Regular Fee</label><br>
+				<input type="radio" id="disc_fee" name="fav_language" value="DISCOUNTED">
+				<label for="disc_fee">Discounted Fee</label><br>
+			</form>
+
+			<br>
+			<button type="button" class="btn btn-primary" onclick="calculate()">Submit</button>
+		</div>
+		
+		<div class="col-md-4 resultarea"> <!-- RESULT -->
+			<h2>Ticket Price</h2>
+			<h4 id="Result">PHP </h4>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6"> <!-- ROUTE -->
+		<h2>II. Route</h2>
+			<img class="rounded img-fluid" src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/news/10/04/lrt-2_1.jpg">
+		</div>
+		
+		<div class="col-md-6"> <!-- SCHED -->
+		<h2>III. Schedule</h2>
+			<table class="table table-sm table-striped table-dark table-hover">
+			<thead class="table-danger">
+				<tr>
+					<th>Stations</th>
+					<th>First Train --> Recto</th>
+					<th>Last Train --> Recto</th>
+					<th>First Train --> Santolan</th>
+					<th>Last Train --> Santolan</th>
+				</tr>
+			</thead>
+			<tbody class="table-striped table-warning">
+				<tr>
+					<td>Santolan</td>
+					<td>5:00 AM</td> 
+					<td>9:00 PM</td>
+					<td>5:20 AM</td> 
+					<td>9:00 PM</td>
+				</tr>
+				<tr>
+					<td>Katipunan</td>
+					<td>5:02 AM</td> 
+					<td>9:00 PM</td>
+					<td>5:18 AM</td> 
+					<td>9:00 PM</td>
+				</tr>
+				<tr>
+					<td>Anonas</td>
+					<td>5:04 AM</td> 
+					<td>9:00 PM</td>
+					<td>5:16 AM</td> 
+					<td>9:00 PM</td>
+				</tr>
+				<tr>
+					<td>Araneta Center-Cubao</td>
+					<td>5:06 AM</td> 
+					<td>9:00 PM</td>
+					<td>5:14 AM</td> 
+					<td>9:00 PM</td>
+				</tr>
+				<tr>
+					<td>Betty Go-Belmonte</td>
+					<td>5:08 AM</td> 
+					<td>9:00 PM</td>
+					<td>5:12 AM</td> 
+					<td>9:00 PM</td>
+				</tr>
+				<tr>
+					<td>Gilmore</td>
+					<td>5:10 AM</td> 
+					<td>9:00 PM</td>
+					<td>5:10 AM</td> 
+					<td>9:00 PM</td>
+				</tr>
+				<tr>
+					<td>J.Ruiz</td>
+					<td>5:12 AM</td> 
+					<td>9:00 PM</td>
+					<td>5:08 AM</td> 
+					<td>9:00 PM</td>
+				</tr>
+				<tr>
+					<td>V.Mapa</td>
+					<td>5:14 AM</td> 
+					<td>9:00 PM</td>
+					<td>5:06 AM</td> 
+					<td>9:00 PM</td>
+				</tr>
+				<tr>
+					<td>Pureza</td>
+					<td>5:16 AM</td> 
+					<td>9:00 PM</td>
+					<td>5:04 AM</td> 
+					<td>9:00 PM</td>
+				</tr>
+			 	<tr>
+					<td>Legarda</td>
+					<td>5:18 AM</td> 
+					<td>9:00 PM</td>
+					<td>5:02 AM</td> 
+					<td>9:00 PM</td>
+				</tr>
+				<tr>
+					<td>Recto</td>
+					<td>5:20 AM</td> 
+					<td>9:00 PM</td>
+					<td>5:00 AM</td> 
+					<td>9:00 PM</td>
+				</tr>
+			</tbody>
+		 </table>
+		</div>
+	</div>
+</div>
+</section>
+
+	 <!-- 3rdPAGE Content -->
+<section id="comments">
+<div class="container">
+	 <label for="name">Name: </label>
+	 	<input type="text" class="form-control" id="name" required>
+	 <label for="email">Email address: </label>
+	 	<input type="email" class="form-control" id="email" required>
+	 <label for="comments"> Comments: </label> <br>
+	 	<textarea id="comments" name="comments" rows="5" cols="125">What are your insights, opinions, or feelings about this website? You can share them here!</textarea>
+	<br>
+	 <button type="button" class="btn btn-primary" onclick="formsubmitted()">Submit</button>
+
+	<div class="floating-social">
+	  <a href="https://www.youtube.com/channel/UC12345678901234567890"><i class="fab fa-youtube"></i></a>
+	  <a href="https://facebook.com/profile.php?id=1000123456789"><i class="fab fa-facebook"></i></a>
+	  <a href="https://x.com/user_deleted"><i class="fab fa-twitter"></i></a>
+	  <a href="https://www.linkedin.com/in/johndoe123456789/"><i class="fab fa-linkedin"></i></a>
+	</div>
+</div>
+</section>
 	    
 	<div class="footer mt-5 text-center"><h4>&#169; AY 24-25 | ICT 9-R | <a href="https://aledesma-9r.github.io/Q3EX2/"> Aisha Ashley O. Ledesma</a> & <a href=""> Zakari Dylan Y. Dimaculangan</h4></div>
  </body>
