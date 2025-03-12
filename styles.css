@@ -1,8 +1,41 @@
-nav {
-  position: sticky;
+body {
+    background-color: #FCCBCC;
+    color: #05514D;
+    font-family: Arial, sans-serif;
 }
 
-.car-image {
-  width: 5px
-  height: 10px
+.navbar {
+    background-color: #C91923 ;
 }
+
+.nav-link, .navbar-brand, .btn-dark {
+    color: #FA9394;
+}
+
+.welcome {
+    background-color: #FA9394;
+    color: #05514D;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item img {
+    border: 5px solid #C91923;
+    border-radius: 10px;
+}
+
+.carousel-caption .names {
+    background-color: rgba(5, 81, 77, 0.8);
+    color: #FCCBCC;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #C91923;
+    color: #FCCBCC;
+    padding: 10px 0;
+    border-top: 3px solid #05514D;
+}
+
