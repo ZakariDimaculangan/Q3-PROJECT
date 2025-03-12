@@ -29,15 +29,15 @@
       <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html" onclick="loadPage('index.html')">🏡Homepage</a>
+            <a class="nav-link active" href="#home" onclick="showSection('home')">🏡Homepage</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="forms.html" onclick="loadPage('forms.html')">🗺️Station Forms</a>
+            <a class="nav-link" href="#forms" onclick="showSection('forms')">🗺️Station Forms</a>
           </li>
 
 	 <li class="nav-item">
-            <a class="nav-link" href="comments.html" onclick="loadPage('comments.html')">📝Feedback</a>
+            <a class="nav-link" href="#comments" onclick="showSection('comments')">📝Feedback</a>
           </li>	
 	</ul>
 
@@ -50,7 +50,8 @@
       </div>
     </div>
   </nav>
-	 <!-- 1stPAGE CONTENT -->
+	
+			<!-- 1stPAGE CONTENT -->
 <section id="home">
   <div class="container">
 	  <div class="welcome">
@@ -106,7 +107,15 @@
     <div class="section">
 	<details>
 	<summary>About</summary>
-		<p>*** (fake aims, fake goal, fake story)</p>
+		<p>Basic information you can know about out services:</p>
+		<ul>
+		  <li>MRT Line 3</li>
+		  <li>The rates for our tickets are:
+			  Regular rate (Php 13 – 28)
+		  <br>
+			  Discounted rate (Regular rate less 20% for Senior, PWD, & Students)
+		  </li>
+		</ul>
 	</details>
 
 	<details>
@@ -121,7 +130,7 @@
  </div>
 </section>
 
-<!-- 2ndPAGE CONTENT -->
+			<!-- 2ndPAGE CONTENT -->
 <section id="forms" style="display: none">
 <div id="coontainer">
 	<div class="row formsarea">
@@ -279,7 +288,7 @@
 </div>
 </section>
 
-	 <!-- 3rdPAGE Content -->
+			<!-- 3rdPAGE Content -->
 <section id="comments" style="display: none">
 <div class="container">
 	 <label for="name">Name: </label>
