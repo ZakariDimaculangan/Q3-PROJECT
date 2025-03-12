@@ -4,30 +4,35 @@ body {
     font-family: Arial, sans-serif;
 }
 
-container {
-    border: 7px;
-    border-color: #9B1003;
-    border-style: inset;
+.container {
+    border: 7px solid #9B1003;
+    border-radius: 10px;
     margin: 30px;
 }
-    
- /* Navigation Bar */
+
+/* Nav */
 .navbar {
-    background-color: #C91923 ;
+    background-color: #C91923;
 }
 
 .nav-link, .navbar-brand, .btn-dark {
-    color: #FA9394;
+    color: #FA9394 !important;
 }
 
 .navbar-brand {
     height: 50px;
- 	width: auto;
-  	max-width: 150px;
-    border: 3px;
-    border-color: red yellow red yellow;
+    width: auto;
+    max-width: 150px;
+    border: 3px solid;
+    border-image: linear-gradient(to right, red, yellow, red, yellow);
+    border-image-slice: 1;
 }
- /* Main */
+
+.nav-link:hover {
+    color: #FCCBCC;
+}
+
+/* Main */
 .welcome {
     background-color: #FA9394;
     color: #05514D;
@@ -44,26 +49,24 @@ container {
 }
 
 /* Index */
-    .carousel-item img {
-        width: 100%;
-  		max-height: 400px;
- 		object-fit: cover;
-        border: 5px solid #C91923;
-        border-radius: 10px;
-    }
-    
-    .carousel-caption .names {
-        background-color: rgba(5, 81, 77, 0.8);
-        color: #FCCBCC;
-        padding: 5px 10px;
-        border-radius: 5px;
-    }
+.carousel-item img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border: 5px solid #C91923;
+    border-radius: 10px;
+}
 
-/* Comments */
+.carousel-caption .names {
+    background-color: rgba(5, 81, 77, 0.8);
+    color: #FCCBCC;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Forms */
 .formsarea {
-	
 }
 
 .resultsarea {
-	
 }
