@@ -3,13 +3,19 @@ body {
     color: #05514D;
     font-family: Arial, sans-serif;
 }
-
+ /* Navigation Bar */
 .navbar {
     background-color: #C91923 ;
 }
 
 .nav-link, .navbar-brand, .btn-dark {
     color: #FA9394;
+}
+
+.navbar-brand {
+    size: 30px;
+    border: 3px;
+    border-color: red yellow red yellow;
 }
  /* Main */
 .welcome {
