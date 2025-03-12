@@ -11,27 +11,13 @@ body {
 .nav-link, .navbar-brand, .btn-dark {
     color: #FA9394;
 }
-
+ /* Main */
 .welcome {
     background-color: #FA9394;
     color: #05514D;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.carousel-item img {
-    width: 30px
-    height: 30px
-    border: 5px solid #C91923;
-    border-radius: 10px;
-}
-
-.carousel-caption .names {
-    background-color: rgba(5, 81, 77, 0.8);
-    color: #FCCBCC;
-    padding: 5px 10px;
-    border-radius: 5px;
 }
 
 .footer {
@@ -41,3 +27,17 @@ body {
     border-top: 3px solid #05514D;
 }
 
+/* Carousel */
+    .carousel-item img {
+        width: 30px
+        height: 30px
+        border: 5px solid #C91923;
+        border-radius: 10px;
+    }
+    
+    .carousel-caption .names {
+        background-color: rgba(5, 81, 77, 0.8);
+        color: #FCCBCC;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
