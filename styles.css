@@ -5,7 +5,7 @@ body {
 }
 
 container {
-    border: 7px
+    border: 7px;
     border-color: #9B1003;
     border-style: inset;
     margin: 30px;
@@ -41,7 +41,7 @@ container {
     border-top: 3px solid #05514D;
 }
 
-/* Carousel */
+/* Index */
     .carousel-item img {
         size: 30%;
         border: 5px solid #C91923;
@@ -54,3 +54,6 @@ container {
         padding: 5px 10px;
         border-radius: 5px;
     }
+
+/* Comments */
+
