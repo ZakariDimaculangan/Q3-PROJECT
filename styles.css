@@ -13,23 +13,26 @@ body {
 .navbar {
     background-color: #C91923;
     position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.nav-link, .navbar-brand, .btn-dark {
-    color: #FA9394 !important;
+.nav-link, btn-dark {
+    color: #FA9394;
+    transition: color 0.3s ease-in-out;
 }
 
-.navbar-brand {
+.nav-link:hover {
+    color: #FCCBCC !important;
+}
+
+.navbar-brand img {
     height: 50px;
     width: auto;
     max-width: 150px;
     border: 3px solid;
     border-image: linear-gradient(to right, red, yellow, red, yellow);
     border-image-slice: 1;
-}
-
-.nav-link:hover {
-    color: #FCCBCC;
 }
 
 /* Main */
